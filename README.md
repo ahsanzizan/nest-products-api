@@ -1,3 +1,47 @@
+# App Docs
+
+### GET Requests
+
+```bash
+/products
+```
+
+Get products (findMany)
+
+```bash
+/products/:id
+```
+
+Get product by id
+
+### POST Requests
+
+```bash
+/products
+```
+
+Create a new product
+
+### PATCH Requests
+
+```bash
+/products/:id
+```
+
+Update a product by id
+
+### DELETE Requests
+
+```bash
+/products/:id
+```
+
+Delete a product by id
+
+Create a new product
+
+# Nest.js
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
