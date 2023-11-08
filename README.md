@@ -38,8 +38,6 @@ Update a product by id
 
 Delete a product by id
 
-Create a new product
-
 # Nest.js
 
 <p align="center">
