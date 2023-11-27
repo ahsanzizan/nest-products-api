@@ -41,7 +41,7 @@ export class ProductsController {
     return this.productService.updateProduct({ where: { id }, data });
   }
 
-  @Delete("products")
+  @Delete("products/:id")
   async deleteProduct(@Param("id") id: number): Promise<Product> {
     return this.productService.deleteProduct({ id });
   }
